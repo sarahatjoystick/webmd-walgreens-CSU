@@ -96,6 +96,15 @@ sup {
 #subcontainer.start {
   top: 250px !important; }
 
+#buy-now{
+  background: rgba(0,0,0,0);
+  width: 41px;
+  height: 40px;
+  z-index: 100;
+  right: 5px;
+  top: 5px;
+}
+
 #header {
   width: 300px;
   height: 52px;

@@ -77,6 +77,7 @@ function adStart() {
     // PRELIMINARY LISTENERS
     document.getElementById('header').onclick = buttonHandler;
     document.getElementById('backup').onclick = buttonHandler;
+    document.getElementById('buy-now').onclick = buttonHandler;
     document.getElementById('header_locator').onclick = buttonHandler;
     document.getElementById('header_gallery').onclick = buttonHandler;
     document.getElementById('header_video').onclick = buttonHandler;
@@ -183,6 +184,10 @@ function buttonHandler(e)
     //trace(e.currentTarget.id);
     switch(e.currentTarget.id)
     {
+        case "buy-now":
+            trace('--- buy-now exit');
+            Enabler.exit('buy-now-cta');
+        break;
         case "header":
             trace('--- header exit');
             Enabler.exit('header-cta');
