@@ -2,7 +2,7 @@ var config = {
 	intro: "i_intro.jpg",
  	header: {
  		image: "i_header.jpg",
- 		exit: "http://www.walgreens.com/"
+ 		exit: "http://www.walgreens.com/search/results.jsp?N=4294838977&webExc=true&view=allView&Ntt=tylenol+arthritis"
  	},
  	module : {
  		close_color_locator: "#fafafa",

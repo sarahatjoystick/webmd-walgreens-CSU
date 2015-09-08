@@ -6,7 +6,7 @@ var config = {
  	},
  	footer: {
  		image: "i_300x100_footer.jpg",
- 		exit: "http://www.walgreens.com/"
+ 		exit: "http://www.walgreens.com/search/results.jsp?N=4294838977&webExc=true&view=allView&Ntt=tylenol+arthritis"
  	},
  	module : {
  		//close: "i_tab_close.png",
